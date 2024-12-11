@@ -5,10 +5,12 @@ import { UserComponent } from "./user/user.component";
 import { UsersComponent } from "./users/users.component";
 import { FooterComponent } from "./footer/footer.component";
 import { MovieListComponent } from './movie-list/movie-list.component';
+import { SearchBarComponent } from "./search-bar/search-bar.component";
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, ComponentOneComponent, UserComponent, UsersComponent, FooterComponent, MovieListComponent],
+  imports: [HeaderComponent, FooterComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
