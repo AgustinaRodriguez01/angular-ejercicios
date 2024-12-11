@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  head = 'Esto es el header';
+  head = 'Angular page';
 }

@@ -1,0 +1,9 @@
+<h2>Lista de Episodios de {{titleShow}} </h2>
+<div class="container">
+    <div *ngFor="let episode of episodes" class="episode-card">
+    <h3> {{episode.Episode}}. {{episode.Title}} </h3>
+    <p>Fecha de estreno: {{ episode.Released }}</p>
+    <p>Calificación: {{ episode.imdbRating }}</p>
+    </div>
+</div>
+
